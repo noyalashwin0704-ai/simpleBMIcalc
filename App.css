@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  text-align: center;
+  padding: 40px;
+  transition: 0.5s;
+  color: white;
+}
+
+/* Dynamic Backgrounds */
+
+.underweight {
+  background: #3498db;
+}
+
+.normal {
+  background: #2ecc71;
+}
+
+.overweight {
+  background: #f39c12;
+}
+
+.obese {
+  background: #e74c3c;
+}
+
+/* Form */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 30px auto;
+  gap: 15px;
+}
+
+.form input {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.form button {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Result Card */
+
+.result-card {
+  background: rgba(255,255,255,0.2);
+  padding: 20px;
+  border-radius: 20px;
+  width: 350px;
+  margin: 30px auto;
+  backdrop-filter: blur(10px);
+}
+
+/* BMI Meter */
+
+.meter-container {
+  width: 350px;
+  height: 25px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 30px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.meter-fill {
+  height: 100%;
+  background: white;
+  transition: 0.5s;
+}
