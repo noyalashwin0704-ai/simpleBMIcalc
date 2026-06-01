@@ -1,16 +1,133 @@
-# React + Vite
+# ⚖️ BMI Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 About the Project
 
-Currently, two official plugins are available:
+BMI Calculator is a simple and user-friendly web application that calculates a person's **Body Mass Index (BMI)** based on their height and weight. It helps users determine whether they fall into categories such as Underweight, Normal Weight, Overweight, or Obese according to standard BMI ranges.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project is designed with a clean interface and provides instant results, making it easy for users to monitor their health status.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Calculate BMI using height and weight
+- Instant result display
+- BMI category classification
+- User-friendly interface
+- Responsive design for mobile and desktop
+- Input validation for accurate calculations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- React.js (if your project uses React)
+- Vite (if created using Vite)
+
+---
+
+## 📂 Project Structure
+
+```text
+BMI-Calculator/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/bmi-calculator.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd bmi-calculator
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 📊 BMI Categories
+
+| BMI Range | Category |
+|------------|----------|
+| Below 18.5 | Underweight |
+| 18.5 – 24.9 | Normal Weight |
+| 25.0 – 29.9 | Overweight |
+| 30.0 and Above | Obese |
+
+---
+
+## 🎯 Purpose
+
+The purpose of this project is to practice front-end web development concepts while creating a useful health-related application that performs real-time calculations.
+
+---
+
+## 🔮 Future Improvements
+
+- BMI history tracking
+- Dark mode support
+- Health recommendations
+- Unit conversion (cm/ft, kg/lbs)
+- User authentication
+- Progress charts and analytics
+
+---
+
+## 👨‍💻 Author
+
+**Noyal Ashwin J**
+
+B.Tech – Artificial Intelligence and Data Science
+
+---
+
+## 📜 License
+
+This project is developed for educational and learning purposes.
